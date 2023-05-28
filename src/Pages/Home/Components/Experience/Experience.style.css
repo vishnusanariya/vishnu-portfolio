@@ -1,0 +1,37 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3%;
+    width: 100%;
+}
+.exp-details{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.cds-logo{
+    height: 15vh;
+}
+.company-logo{
+    height: 15vh;
+}
+.role{
+    font-size: large;
+
+}
+.timeline-place{
+    font-size: large;
+    display: flex;
+    column-gap: 1%;
+    align-items: center;
+}
+.work-details{
+    font-size: larger;
+    margin-left: 13%;
+}

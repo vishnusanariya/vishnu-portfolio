@@ -1,0 +1,30 @@
+.education{
+    display: flex;
+    flex-direction: column;
+    row-gap: 6vh;
+}
+.college{
+    border-bottom: 1px solid gray;
+}
+.institute-name{
+    color: orange;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.duration-place{
+    font-size: large;
+    display: flex;
+    column-gap: 1%;
+    align-items: center;
+}
+.gradution{
+    color: dodgerblue;
+    font-size: larger;
+    font-weight: bold;
+}
+.score{
+    font-size: large;
+}
+.info{
+    margin: 1% 0;
+}

@@ -5,16 +5,14 @@ const Experience: React.FC = () => {
     <div className="experience">
       <div className="company-details">
         <div className="title">
-          <div className="company-logo">
-            <img className="cds-logo" src="cds-logo.png" alt="cds-logo.png" />
-          </div>
+          <img className="cds-logo" src="cds-logo.png" alt="cds-logo.png" />
           <div className="exp-details">
             <div className="role">Software Developer Intern</div>
             <div className="timeline-place">
               <i className="fa fa-calendar" aria-hidden="true"></i> Dec 2022 -
               May 2023{" "}
               <i className="fa fa-location-arrow" aria-hidden="true"></i>{" "}
-              Ahmedabad,India .
+              Ahmedabad,India.
             </div>
           </div>
         </div>

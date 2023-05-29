@@ -1,0 +1,30 @@
+.achievement{
+    margin-top: 1rem;
+}
+.achievement-title{
+    align-items: center;
+    font-size: large;
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+}
+.achievement-details{
+    font-size: medium;
+}
+.site-icon{
+    height: 1.2rem;
+    vertical-align: middle;
+    filter:invert(1);
+    margin-right: 5px;
+}
+.certificate-title{
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: large;
+    font-weight: bolder;
+    color: #FFBF00;
+}
+.certificate-icon{
+    height: 7rem;
+    vertical-align: middle;
+    margin-right: 15px;
+}

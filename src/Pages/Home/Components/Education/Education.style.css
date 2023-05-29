@@ -8,7 +8,7 @@
 }
 .institute-name{
     color: orange;
-    font-size: x-large;
+    font-size: larger;
     font-weight: bolder;
 }
 .duration-place{
@@ -19,8 +19,7 @@
 }
 .gradution{
     color: dodgerblue;
-    font-size: larger;
-    font-weight: bold;
+    font-size: large;
 }
 .score{
     font-size: large;

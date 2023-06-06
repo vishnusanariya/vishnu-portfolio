@@ -7,12 +7,12 @@ const About = () => {
             Hi 👋, I'm
             <span className='bold-name'> Vishnu Sanariya</span>
           </div>
-            <div className='role'>Software Developer</div>
+            <div className='designation'>Software Developer</div>
         </div>
         <div className="about-content">
             <ul className='about-details'>
-                <li>I completed my gradutaion in Btech Information Technology from Dharmsinh Desai University (2019-2023) . </li>
-                <li>I have basic knowledge of the web development, created projects based on the Django and MERN stack during my college career .</li>
+                <li>I completed my gradutaion in B.Tech Information Technology from <a href='https://www.ddu.ac.in/'>Dharmsinh Desai University</a> (2019-2023) . </li>
+                <li>I have basic knowledge of the web development, created <a href='/projects'>projects</a> based on the Django and MERN stack during my college career .</li>
                 <li>In free time i like to read books 📕 and listening music 🎵 .</li>
                 <li>I like to learn about the new technologies .</li>
             </ul>

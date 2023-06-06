@@ -1,0 +1,18 @@
+.heading{
+    color: orange;
+    font-size: larger;
+    font-weight: bold;
+}
+.project-description{
+    font-size: larger;
+}
+.project-tech{
+    margin-top: 0.5rem;
+}
+.tech{
+    background-color: #3e92ec;
+    color: white;
+    border-radius: 5%;
+    margin-right: 1rem;
+    padding: 0.2rem 0.4rem;
+}

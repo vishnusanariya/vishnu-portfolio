@@ -15,7 +15,6 @@
     float: right;
     display: flex;
     flex-direction: column;
-    width: 40%;
 }
 .cds-logo{
     height: 4em;
@@ -25,12 +24,15 @@
 }
 .role{
     font-size: large;
-
+    color: orange;
 }
 .timeline-place{
     font-size: large;
 }
 .work-details{
     font-size: larger;
-    margin-left: 13%;
+}
+
+.company-details{
+    border-bottom: 0.5px dashed whitesmoke;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import './Contact.style.css'
-const Contact = () => {
+const Contact:React.FC = () => {
   return (
     <div className="contact-wrapper">
       <div className="contact">

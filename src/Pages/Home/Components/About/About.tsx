@@ -1,5 +1,6 @@
+import React from 'react'
 import "./About.style.css";
-const About = () => {
+const About:React.FC = () => {
   return (
     <div className="about">
       <div className="about-header">

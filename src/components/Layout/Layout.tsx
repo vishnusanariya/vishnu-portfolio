@@ -1,7 +1,8 @@
+import React from 'react';
 import Dropdown from "./Dropdown";
 import "./Layout.style.css";
 import { useNavigate, Outlet } from "react-router-dom";
-const Navbar = () => {
+const Navbar:React.FC = () => {
   const navigate = useNavigate();
   return (
     <>

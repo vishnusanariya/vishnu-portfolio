@@ -1,3 +1,4 @@
+import React from 'react'
 import "./App.css";
 import {
   createBrowserRouter,
@@ -47,7 +48,7 @@ const Router = createBrowserRouter([
     ],
   },
 ]);
-const App = () => {
+const App:React.FC = () => {
   return (
     <>
       <RouterProvider router={Router} />

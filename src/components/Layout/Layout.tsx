@@ -84,13 +84,13 @@ const Navbar:React.FC = () => {
           © <span id="year">2023</span>-Vishnu Sanariya
         </div>
         <div className="links">
-          <a href="mailto:vishnusanariya98@gmail.com">
+          <a href="mailto:vishnusanariya98@gmail.com" target='_blank'>
             <i className="fa fa-envelope" aria-hidden="true"></i>
           </a>
-          <a href="https://www.linkedin.com/in/vishnusanariya/">
+          <a href="https://www.linkedin.com/in/vishnusanariya/" target='_blank'>
             <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
           </a>
-          <a href="https://github.com/vishnusanariya">
+          <a href="https://github.com/vishnusanariya" target='_blank'>
             <i className="fa fa-github" aria-hidden="true"></i>
           </a>
         </div>

@@ -1,9 +1,9 @@
 .education{
     display: flex;
     flex-direction: column;
-    row-gap: 6vh;
+    row-gap: 2vh;
 }
-.college{
+.college,.school{
     border-bottom: 1px solid gray;
 }
 .institute-name{

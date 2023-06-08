@@ -1,13 +1,13 @@
 import Dropdown from "./Dropdown";
 import "./Layout.style.css";
-import { useNavigate,Outlet } from "react-router-dom";
+import { useNavigate, Outlet } from "react-router-dom";
 const Navbar = () => {
-  const navigate=useNavigate();
+  const navigate = useNavigate();
   return (
     <>
       <div className="mobile-navbar">
         <header className="header-menu">
-          <Dropdown/>
+          <Dropdown />
         </header>
       </div>
       <div className="navbar">
@@ -77,6 +77,22 @@ const Navbar = () => {
       </div>
       <div className="content">
         <Outlet />
+      </div>
+      <div className="footer">
+        <div className="copyright">
+          © <span id="year">2023</span>-Vishnu Sanariya
+        </div>
+        <div className="links">
+          <a href="mailto:vishnusanariya98@gmail.com">
+            <i className="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/vishnusanariya/">
+            <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/vishnusanariya">
+            <i className="fa fa-github" aria-hidden="true"></i>
+          </a>
+        </div>
       </div>
     </>
   );

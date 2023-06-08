@@ -1,8 +1,11 @@
-.skill-title{
-    font-size: larger;
-    color: orange;
+.skill-title {
+  font-size: larger;
+  color: orange;
 }
-.skill-details{
-    font-size: large;
-    color: whitesmoke;
+.skill-details {
+  font-size: large;
+  color: whitesmoke;
+}
+.skills {
+  border-bottom: 0.5px dashed whitesmoke;
 }

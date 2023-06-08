@@ -15,6 +15,12 @@ const Contact = () => {
         </div>
         <div className="contact-details"><a href="https://www.linkedin.com/in/vishnusanariya/" target="_blank">https://www.linkedin.com/in/vishnusanariya</a></div>
       </div>
+      <div className="contact">
+        <div className="contact-title">
+          <i className="fa fa-github" aria-hidden="true"></i> GitHub
+        </div>
+        <div className="contact-details"><a href="https://github.com/vishnusanariya" target="_blank">https://github.com/vishnusanariya</a></div>
+      </div>
     </div>
   );
 };

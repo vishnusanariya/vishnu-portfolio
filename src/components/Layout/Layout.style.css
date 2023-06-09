@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     margin: 2% 10%;
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid rgb(43, 42, 42);
 }
 .navbar-items{
     padding: 0.5rem 0.5rem;

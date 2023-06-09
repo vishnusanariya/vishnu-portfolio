@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import Dropdown from "./Dropdown";
 import "./Layout.style.css";
 import { useNavigate, Outlet } from "react-router-dom";
-const Navbar:React.FC = () => {
+const Navbar: React.FC = () => {
   const navigate = useNavigate();
   return (
     <>
@@ -84,14 +84,20 @@ const Navbar:React.FC = () => {
           © <span id="year">2023</span>-Vishnu Sanariya
         </div>
         <div className="links">
-          <a href="mailto:vishnusanariya98@gmail.com" target='_blank'>
+          <a href="mailto:vishnusanariya98@gmail.com" target="_blank">
             <i className="fa fa-envelope" aria-hidden="true"></i>
           </a>
-          <a href="https://www.linkedin.com/in/vishnusanariya/" target='_blank'>
+          <a href="https://www.linkedin.com/in/vishnusanariya/" target="_blank">
             <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
           </a>
-          <a href="https://github.com/vishnusanariya" target='_blank'>
+          <a href="https://github.com/vishnusanariya" target="_blank">
             <i className="fa fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.instagram.com/vishnu_sanariya/" target="_blank">
+            <i className="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href='https://twitter.com/20nuSanariya'>
+          <i className="fa fa-twitter" aria-hidden="true"></i>
           </a>
         </div>
       </div>

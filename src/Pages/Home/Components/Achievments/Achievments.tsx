@@ -5,7 +5,7 @@ const Achievements: React.FC = () => {
     <div className="achievements">
       <div className="achievement">
         <div className="achievement-title">
-          <img className="site-icon" src="leetcode.svg"></img>Leetcode
+          <img className="site-icon" src="leetcode.png"></img>Leetcode
         </div>
         <div className="achievement-details">
           <a href="https://leetcode.com/vishnu_23/">
@@ -15,7 +15,7 @@ const Achievements: React.FC = () => {
       </div>
       <div className="achievement">
         <div className="achievement-title">
-          <img className="site-icon" src="hackerrank.svg"></img>HackerRank
+          <img className="site-icon" src="hackerrank.png"></img>HackerRank
         </div>
         <div className="achievement-details">
           <a href="https://www.hackerrank.com/IT138_VISHNU">
